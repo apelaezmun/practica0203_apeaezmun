@@ -7,3 +7,6 @@
 #7 5 3 1
 #9 7 5 3 1
 num = int(input('Escribe un numero: '))
+for i in range(1, num +1, 2):
+    for h in range(i, 0, -2):
+        print(h, end='\n')
