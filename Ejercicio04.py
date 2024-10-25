@@ -4,9 +4,7 @@
 #pantalla si el usuario tiene que tributar o no.
 Edad = int(input('Cuantos años tienes: '))
 ingresos = int(input('Cantidad de ingresos mensuales: '))
-if Edad > 16:
-    print('Mayor de 16 años')
-elif ingresos >= 1000:
+if Edad > 16 and ingresos >= 1000:
     print('Usted tiene que tributar')
 else:
     print('Usted no tiene que tributar')
